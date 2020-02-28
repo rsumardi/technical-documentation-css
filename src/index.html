@@ -1,0 +1,103 @@
+<nav id="navbar"> 
+  <header>CSS Documentation</header> 
+  <ul> 
+    <li><a class="nav-link"
+href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" 
+         href="#CSS Syntax">CSS Syntax</a></li> 
+    <li><a class="nav-link"
+           href="#Change-text-color">Change Text Color</a></li>
+    <li><a class="nav-link"
+           href="#Change Font-Size">Change Font Size</a></li> 
+    <li><a class="nav-link"
+           href="#Set-Id">Set id of an Element</a></li> 
+    </nav> 
+  
+  <main id="main-doc">
+    <section class="main-section"
+            id="Introduction">
+      <header>Introduction</header> 
+      <article> 
+        <p>
+ Cascading Style Sheets (CSS) tell the browser how to display the text and other content that you write in HTML.
+
+Note that CSS is case-sensitive so be careful with your capitalization. CSS has been adopted by all major browsers and allows you to control <ul> 
+        <li> 
+          color 
+        </li>
+    <li> 
+      fonts 
+        </li> 
+        <li> 
+          positioning
+        </li> 
+        <li>
+          spacing
+        </li>
+        <li>
+          sizing
+        </li>
+        <li>
+          decorations
+        </li>
+        <li>
+          transitions
+        </li>
+        </ul> 
+      </article> 
+    </section> 
+    <section class="main-section"
+            id="CSS Syntax"><header>CSS Syntax</header> 
+      <article>
+        <p> 
+          A CSS rule-set consists of a selector and a declaration block:<code> p {
+  color: red;
+  text-align: center;
+          } </code> The selector points to the HTML element you want to style.
+
+The declaration block contains one or more declarations separated by semicolons.
+
+Each declaration includes a CSS property name and a value, separated by a colon.
+
+A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces. 
+        </p>
+      </article> 
+      </section> 
+   <section class="main-section"
+            id="Change-text-color"><header>Change Text Color</header> 
+      <article>
+      <p>
+        The property that is responsible for the color of an element's text is the color style property.
+Here's how you would set your h2 element's text color to blue:
+        <code> 
+          h2 {
+  color: blue;
+          } </code> 
+       </p>
+      </article> 
+      </section> 
+  <section class="main-section"
+            id="Change Font-Size"><header>Change Font Size</header> 
+    <p> Font size is controlled by the font-size CSS property, like this: <code> h1 {
+  font-size: 30px;
+}
+      </code> 
+  </p>
+      </article> 
+      </section> 
+<section class="main-section"
+            id="Set-Id"><header>Set id of an Element</header> 
+  <p> 
+    In addition to classes, each HTML element can also have an id attribute.
+There are several benefits to using id attributes: You can use an id to style a single element and later you'll learn that you can use them to select and modify specific elements with JavaScript.
+id attributes should be unique. Browsers won't enforce this, but it is a widely agreed upon best practice. So please don't give more than one element the same id attribute.
+    Here's an example: <code> h2 id = "text"</code> </p> </section> </main> 
+
+          
+                                                                             
+          
+          
+
+    
+           
